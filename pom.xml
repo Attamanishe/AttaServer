@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>AttaServerAPI</groupId>
+    <artifactId>com.atta.attaserver</artifactId>
+    <version>1.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>java-task-processor</id>
+            <url>https://github.com/Attamanishe/JavaTaskProcessor</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.json/json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20180813</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.jsoniter/jsoniter -->
+        <dependency>
+            <groupId>com.jsoniter</groupId>
+            <artifactId>jsoniter</artifactId>
+            <version>0.9.23</version>
+        </dependency>
+        <dependency>
+            <groupId>java-task-processor</groupId>
+            <artifactId>TaskProcessor</artifactId>
+            <version>[1.0,)</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>

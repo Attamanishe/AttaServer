@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jsoniter-0.9.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/jsoniter-0.9.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AttaServerAPI" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/atta/server/peer/PeerListener.java" line="53" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a62aa78-8c2f-446f-a265-1751aacc5659" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/TastProcessor/target/" />
+    <ignored path="$PROJECT_DIR$/javataskprocessor/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/attaserver$Server.ic" NAME="Server Coverage Results" MODIFIED="1540491341668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1538526350">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="99" />
+          <entry key="properties" value="55" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="99" />
+          <entry key="Properties" value="55" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="6" />
+          <entry key="properties" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="6" />
+          <entry key="Properties" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1467269055">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="JSONMessageStructure" value="1" />
+          <entry key="java" value="10" />
+          <entry key="properties" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="10" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="JSONMessageStructure" value="35" />
+          <entry key="java" value="462" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="462" />
+          <entry key="PLAIN_TEXT" value="35" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-144743185">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1394" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1394" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1791966808">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="33" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.10" value="7" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="JSONMessageStructure" value="3" />
+          <entry key="class" value="4" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="358" />
+          <entry key="jpg" value="1" />
+          <entry key="json" value="1" />
+          <entry key="png" value="1" />
+          <entry key="properties" value="14" />
+          <entry key="txt" value="11" />
+          <entry key="xml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="358" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Properties" value="14" />
+          <entry key="XML" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="11" />
+          <entry key="java" value="21329" />
+          <entry key="json" value="140" />
+          <entry key="properties" value="178" />
+          <entry key="xml" value="138" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="21329" />
+          <entry key="JSON" value="140" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Properties" value="178" />
+          <entry key="XML" value="138" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Example/SimpleExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+              <folding>
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Example/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ UML_model.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/Connector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3541#3542#0" expanded="true" />
+                <element signature="e#3575#3576#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/MessageCountChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSONMessageExemple.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/atta/helpers/ServerConfigReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Singleton" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>import atta.utill.processors.load.LoadBalancingTaskProcessor;</find>
+      <find>import atta.utill.processors.diagnostically.DiagnosticallyTaskProcessor;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>import processors.load.LoadBalancingTaskProcessor;</replace>
+      <replace>import processors.diagnostically.DiagnosticallyTaskProcessor;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\Projects\BorB\AttaCore\src\libs</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/borb/utill/processors/base/ChangedTaskProcessor.java" />
+        <option value="$PROJECT_DIR$/src/com/borb/utill/processors/changed/ChangedTaskProcessor.java" />
+        <option value="$PROJECT_DIR$/src/resources/server.properties" />
+        <option value="$PROJECT_DIR$/src/com/borb/utill/processors/load/LoadBalancingTaskProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/loger/ILogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/MessageCountChecker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/callback/CallBackDouble.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/callback/CallBackQuadr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/callback/CallBackSingle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/callback/CallBackTriple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/container/Container.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/processors/base/IProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/processors/base/ProcessorsManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/processors/base/TaskProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/processors/diagnostically/DiagnosticallyTaskProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/processors/diagnostically/DiagnosticsTaskProcessorsManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/processors/diagnostically/IDiagnostically.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/processors/load/LoadBalancingTaskProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/processors/changed/ChangedTaskProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/helpers/ServerConfigReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/properties/PropertiesReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/comand/model/CommandModel.java" />
+        <option value="$PROJECT_DIR$/src/impl/SimpleExecutor.java" />
+        <option value="$PROJECT_DIR$/src/impl/Main.java" />
+        <option value="$PROJECT_DIR$/TastProcessor/pom.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/loger/InternalFileLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/Connector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientMessageReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientPinger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/peer/PeerListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/utill/loger/LogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/peer/PeerManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/comand/CommandService.java" />
+        <option value="$PROJECT_DIR$/src/impl/ServerUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientMessageSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/Executor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/AttaServer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/server.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/peer/PeerDistributor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/helpers/JsonMessageParserHelper.java" />
+        <option value="$PROJECT_DIR$/Example/SimpleExecutor.java" />
+        <option value="$PROJECT_DIR$/JSONMessageStructure" />
+        <option value="$PROJECT_DIR$/JSONMessageStructure.json" />
+        <option value="$PROJECT_DIR$/Example/Main.java" />
+        <option value="$PROJECT_DIR$/server.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.atta.attaserver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.atta.attaserver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.atta.attaserver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.atta.attaserver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="710" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="Example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Utill" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AttaCore" type="58d84e3e:PackageViewProjectNode" />
+              <item name="AttaCore" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="AttaCore" type="58d84e3e:PackageViewProjectNode" />
+              <item name="AttaCore" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550268032039" />
+    <property name="extract.method.default.visibility" value="protected" />
+    <property name="jdk.selected.JAVA_MODULE" value="JDK_1.8.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Projects\BorB\AttaCore\src\com\borb\Plugins\JsonParser" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="com.borb.Server.Client.Controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/TastProcessor/JavaTaskProcessor" />
+      <recent name="$PROJECT_DIR$/TastProcessor" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/Server" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="impl" />
+      <recent name="com.borb.Server.Client.Controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.borb.Utill.WorkerManager" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.borb.server.client" />
+      <recent name="com.test.Server.Comand" />
+      <recent name="com.test" />
+      <recent name="com.test.Server.Client" />
+      <recent name="com.test.Messanger" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AttaCore" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a62aa78-8c2f-446f-a265-1751aacc5659" name="Default" comment="" />
+      <created>1526366438358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526366438358</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" weight="0.24959612" />
+      <window_info id="Learn" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2786753" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Find" order="8" sideWeight="0.6304687" weight="0.31502423" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="3" sideWeight="0.41653028" weight="0.35598704" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4935275" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.17528272" side_tool="true" weight="0.31643835" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.45482296" weight="0.2589041" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.8247173" visible="true" weight="0.24931507" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.8256956" weight="0.3452055" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.32875606" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.22132471" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.32956383" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/TastProcessor/JavaTaskProcessor" />
+      <path value="$PROJECT_DIR$/javataskprocessor" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/atta/utill/ThreadFastTask/TaskProcessor.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/atta/server/peer/PeerDistributor.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/atta/server/client/Client.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="lostedClients.entrySet().toArray()[0]" />
+        <watch expression="lostedClients.entrySet().toArray()[0]" language="JAVA" />
+        <watch expression="lostedClients.entrySet().toArray()[0]" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>(cachedPart.charAt(0)+cachedPart.charAt(1)).eq&quot;%z&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cachedPart.charAt(0)=='%'</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cachedPart.charAt(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/base/ProcessorsManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/utill/callback/CallBackDouble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/utill/callback/CallBackSingle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jsoniter/jsoniter/0.9.23/jsoniter-0.9.23.jar!/com/jsoniter/any/ArrayAny.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20180813/json-20180813.jar!/org/json/HTTP.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/base/IProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/changed/ChangedTaskProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/diagnostically/DiagnosticallyTaskProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/diagnostically/DiagnosticsTaskProcessorsManager.java" />
+    <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/diagnostically/IDiagnostically.java" />
+    <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/load/LoadBalancingTaskProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/TastProcessor/TastProcessor.iml" />
+    <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/base/TaskProcessor.java" />
+    <entry file="file://$PROJECT_DIR$/javataskprocessor/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/TastProcessor/JavaTaskProcessor/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__java_task_processor_TastProcessor_1_0.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/utill/loger/LogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/utill/loger/InternalFileLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/ServerUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log2019-02-140012.txt" />
+    <entry file="file://$PROJECT_DIR$/log2019-02-140023.txt" />
+    <entry file="file://$PROJECT_DIR$/log2019-02-140027.txt" />
+    <entry file="jar://$MAVEN_REPOSITORY$/java-task-processor/TaskProcessor/1.1/TaskProcessor-1.1.jar!/processors/load/LoadBalancingTaskProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/AttaServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="e#1296#1546#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#1611#1867#0" expanded="true" />
+            <element signature="e#1866#1867#0" expanded="true" />
+            <element signature="e#1885#2156#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#2557#2558#0" expanded="true" />
+            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="e#3198#3448#0" expanded="true" />
+            <element signature="e#3447#3448#0" expanded="true" />
+            <element signature="e#3906#3907#0" expanded="true" />
+            <element signature="e#3960#3961#0" expanded="true" />
+            <element signature="e#4026#4027#0" expanded="true" />
+            <element signature="e#4080#4081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/utill/properties/PropertiesReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/peer/PeerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/peer/PeerDistributor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/peer/PeerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/comand/model/CommandModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="98" column="25" lean-forward="true" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/helpers/JsonMessageParserHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/comand/CommandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#CommandProcessor#0;class#CommandService#0" />
+            <element signature="method#CommandProcessor#0;class#CommandProcessor#0;class#CommandService#0" />
+            <element signature="method#getLoadValue#0;class#CommandProcessor#0;class#CommandService#0" />
+            <element signature="class#CommandDistributor#0;class#CommandService#0" />
+            <element signature="class#MessageDistributor#0;class#CommandService#0" />
+            <element signature="class#CommandParser#0;class#CommandService#0" />
+            <element signature="method#CommandService#0;class#CommandService#0" />
+            <element signature="e#5811#5812#0" expanded="true" />
+            <element signature="e#5865#5866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientMessageReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientMessageSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientPinger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/Connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3541#3542#0" expanded="true" />
+            <element signature="e#3575#3576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ UML_model.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/SimpleExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSONMessageStructure">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/MessageCountChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSONMessageExemple.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/helpers/ServerConfigReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>AttaServerAPI</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>javataskprocessor</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jsoniter-0.9.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

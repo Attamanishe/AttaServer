@@ -1,0 +1,45 @@
+{
+  "_cmd": 123, //command index
+  "_ai": [ // array of integers
+    1,
+    2,
+    3,
+    4
+  ],
+  "_ad": [ // array of doubles
+    1,
+    2,
+    3,
+    4
+  ],
+  "_as": [ // array of strings
+    1,
+    2,
+    3,
+    4
+  ],
+  "_al": [ //array of longs
+    1,
+    2,
+    3,
+    4
+  ],
+  "_am": [ //array of custom models serialized to json
+    {
+      "name": "brad",
+      "age": 15
+    },
+    {
+      "name": "brad",
+      "age": 15
+    },
+    {
+      "name": "brad",
+      "age": 15
+    },
+    {
+      "name": "brad",
+      "age": 15
+    }
+  ]
+}

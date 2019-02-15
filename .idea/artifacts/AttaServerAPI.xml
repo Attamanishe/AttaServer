@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="AttaServerAPI">
+    <output-path>$PROJECT_DIR$/out/artifacts/AttaServerAPI</output-path>
+    <root id="root">
+      <element id="module-output" name="AttaCore" />
+      <element id="library" level="project" name="guava-15.0-rc1" />
+      <element id="library" level="project" name="gson-2.2.2" />
+      <element id="library" level="project" name="java-json" />
+      <element id="library" level="project" name="jsoniter-0.9.10" />
+    </root>
+  </artifact>
+</component>
