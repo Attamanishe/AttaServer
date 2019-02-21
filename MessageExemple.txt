@@ -1,4 +1,4 @@
-{
+%zmd%{
   "_cmd": 123, //command index
   "_ai": [ // array of integers
     1,
@@ -42,4 +42,4 @@
       "age": 15
     }
   ]
-}
+}%zmd%
