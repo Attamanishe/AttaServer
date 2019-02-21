@@ -1,0 +1,10 @@
+LOG:09:38:31     Server started
+LOG:09:39:19     Connected new socket with ip: /127.0.0.1
+LOG:09:39:19     Client with id: 0 has been connected
+LOG:09:39:46     Client with id: 0 has been disconnected
+ERORR:09:39:46   Socket closed
+LOG:09:44:01     Connected new socket with ip: /127.0.0.1
+LOG:09:44:01     Client with id: 1 has been connected
+LOG:09:44:11     Client with id: 1 has been disconnected
+LOG:09:44:58     Connected new socket with ip: /127.0.0.1
+LOG:09:44:58     Client with id: 2 has been connected

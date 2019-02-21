@@ -115,7 +115,7 @@ public class AttaServer
         int commandType = command._cmd / COMMANDS_PER_TYPE_COUNT;
         if (executors.containsKey(commandType))
         {
-            executors.get(commandType).send(id, command);
+            executors.get(commandType).execute(id, command);
         } else
         {
             System.err.println("There is no executor for command type " + commandType);
