@@ -87,9 +87,6 @@ class ClientProcessor
         pinger = new ClientPinger(clientList);
         messageHandler = new ClientMessageReceiver(clientList, onMessageReceived);
         messageSender = new ClientMessageSender();
-        messageHandler.start();
-        messageSender.start();
-        pinger.start();
     }
 
     public int getClientsCount()
@@ -102,6 +99,13 @@ class ClientProcessor
         pinger.stop();
         messageSender.stop();
         messageHandler.stop();
+    }
+
+    public void start()
+    {
+        messageHandler.start();
+        messageSender.start();
+        pinger.start();
     }
 
     public void addClient(long id, Client client)

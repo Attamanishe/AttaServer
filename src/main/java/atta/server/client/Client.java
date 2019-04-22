@@ -3,10 +3,11 @@ package atta.server.client;
 import atta.utill.callback.CallBackSingle;
 import atta.utill.loger.LogController;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Client
@@ -14,6 +15,7 @@ public class Client
     private static CallBackSingle<Client> ON_CLIENT_DISCONNECTED;
     private static final int MAX_BUFFER_SIZE = 4096;
     private final String MESSAGE_DELIMITER = "%zmd%";
+    private final String EMPTY = "";
     private long id;
     private Socket client;
     private InputStream reader;
@@ -79,51 +81,24 @@ public class Client
         }
     }
 
-    public List<String> getData()
+    public ArrayList<String> getData()
     {
-        List<String> messages = new ArrayList<>();
+        ArrayList<String> messages = new ArrayList<>();
         try
         {
-            int countOfBytes;
-
             lockHandling.lock();
-            do
-            {
-                byte buffer[];
-                buffer = new byte[MAX_BUFFER_SIZE];
-                countOfBytes = reader.read(buffer, 0, MAX_BUFFER_SIZE);
-                byte clearedBuffer[] = new byte[countOfBytes];
-                System.arraycopy(buffer, 0, clearedBuffer, 0, countOfBytes);
-                String mes = cachedPart + new String(clearedBuffer);
-                cachedPart = "";
-                String subMessages[] = mes.split(MESSAGE_DELIMITER);
-
-                for (int i = 0, length = subMessages.length - 1; i < length; i++)
-                {
-                    String subMessage = subMessages[i];
-                    if (subMessage.length() > 1)
-                    {
-                        messages.add(subMessage);
-                        MessageCountChecker.HANDLED_MESSAGES_COUNT++;
-                    }
-                }
-
-                if (subMessages[subMessages.length - 1].length() > 1)
-                {
-                    cachedPart = subMessages[subMessages.length - 1];
-                }
-
-            } while (countOfBytes == MAX_BUFFER_SIZE);
-            lockHandling.unlock();
-            return messages;
+            readMessages(messages);
         } catch (Exception ex)
         {
-            lockHandling.unlock();
             LogController.getInstance().LogError(ex.getMessage());
             ex.printStackTrace();
-            return null;
+        } finally
+        {
+            lockHandling.unlock();
         }
+        return messages;
     }
+
 
     public boolean isReady()
     {
@@ -179,5 +154,36 @@ public class Client
         } catch (Exception e)
         {
         }
+    }
+
+    private void readMessages(ArrayList<String> messages) throws IOException
+    {
+        int countOfBytes;
+        do
+        {
+            byte buffer[];
+            buffer = new byte[MAX_BUFFER_SIZE];
+            countOfBytes = reader.read(buffer, 0, MAX_BUFFER_SIZE);
+            byte clearedBuffer[] = new byte[countOfBytes];
+            System.arraycopy(buffer, 0, clearedBuffer, 0, countOfBytes);
+            String subMessages[] = (cachedPart + new String(clearedBuffer)).split(MESSAGE_DELIMITER);
+            cachedPart = EMPTY;
+
+            for (int i = 0, length = subMessages.length - 1; i < length; i++)
+            {
+                String subMessage = subMessages[i];
+                if (subMessage.length() > 1)
+                {
+                    messages.add(subMessage);
+                    MessageCountChecker.HANDLED_MESSAGES_COUNT++;
+                }
+            }
+
+            if (subMessages[subMessages.length - 1].length() > 1)
+            {
+                cachedPart = subMessages[subMessages.length - 1];
+            }
+
+        } while (countOfBytes == MAX_BUFFER_SIZE);
     }
 }

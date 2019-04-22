@@ -24,8 +24,8 @@ public class ClientManager
 
     public void sendMessage(long clientId, String message)
     {
-        long key=clientId / MAX_CLIENTS_PER_PROCESSOR_COUNT;
-        if(clientProcessors.containsKey(key))
+        long key = clientId / MAX_CLIENTS_PER_PROCESSOR_COUNT;
+        if (clientProcessors.containsKey(key))
         {
             clientProcessors.get(key).sendMessage(clientId, message);
         }
@@ -39,7 +39,9 @@ public class ClientManager
         long processorId = client.getId() / MAX_CLIENTS_PER_PROCESSOR_COUNT;
         if (!clientProcessors.containsKey(processorId))
         {
-            clientProcessors.put(processorId, new ClientProcessor(onMessageReceived));
+            ClientProcessor processor = new ClientProcessor(onMessageReceived);
+            clientProcessors.put(processorId, processor);
+            processor.start();
         }
         clientProcessors.get(processorId).addClient(client.getId(), client);
     }

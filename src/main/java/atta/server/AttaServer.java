@@ -70,6 +70,10 @@ public class AttaServer
                 });
 
         executors = new ConcurrentHashMap<>();
+
+        commandService.start();
+        clientService.start();
+
         System.out.println("Server started");
         LogController.getInstance().Log("Server started");
     }
@@ -87,6 +91,7 @@ public class AttaServer
 
     /**
      * Add the new executor to process commands
+     *
      * @param executor executor instance
      * @throws Exception if there is another executor with same command type
      */

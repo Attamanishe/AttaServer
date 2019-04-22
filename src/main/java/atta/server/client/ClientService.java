@@ -70,12 +70,17 @@ public class ClientService
                     }
                 }
         );
-        connector.start();
     }
 
     public void sendMessage(long clientId, String message)
     {
         clientManager.sendMessage(clientId, message);
+    }
+
+    public void start()
+    {
+        connector.start();
+        peerManager.start();
     }
 
     private void onPeerConnected(Socket peer)

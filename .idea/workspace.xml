@@ -7,13 +7,27 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/java/atta/server/peer/PeerListener.java" line="53" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/atta/server/client/Client.java" line="144" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/atta/server/client/Client.java" line="121" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a62aa78-8c2f-446f-a265-1751aacc5659" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atta/server/AttaServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atta/server/AttaServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atta/server/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atta/server/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atta/server/client/ClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atta/server/client/ClientManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atta/server/client/ClientProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atta/server/client/ClientProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atta/server/client/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atta/server/client/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atta/server/comand/CommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atta/server/comand/CommandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atta/server/peer/PeerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atta/server/peer/PeerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atta/server/AttaServer$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atta/server/AttaServer$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atta/server/AttaServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atta/server/AttaServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atta/server/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atta/server/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atta/server/client/ClientManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atta/server/client/ClientManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atta/server/client/ClientMessageReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atta/server/client/ClientMessageReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atta/server/client/ClientProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atta/server/client/ClientProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atta/server/client/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atta/server/client/ClientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atta/server/comand/CommandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atta/server/comand/CommandService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/atta/server/peer/PeerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/atta/server/peer/PeerManager.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -133,9 +147,9 @@
     <session id="1791966808">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
-          <entry key="project.open.time.0" value="6" />
-          <entry key="project.open.time.1" value="6" />
+          <entry key="project.closed" value="40" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="7" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
@@ -143,53 +157,57 @@
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="38" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="JSONMessageStructure" value="3" />
-          <entry key="class" value="5" />
+          <entry key="class" value="8" />
           <entry key="iml" value="3" />
-          <entry key="java" value="371" />
+          <entry key="java" value="384" />
           <entry key="jpg" value="1" />
           <entry key="json" value="2" />
           <entry key="png" value="1" />
           <entry key="properties" value="15" />
-          <entry key="txt" value="11" />
-          <entry key="xml" value="12" />
+          <entry key="txt" value="12" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="8" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="371" />
+          <entry key="JAVA" value="384" />
           <entry key="JSON" value="2" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="PLAIN_TEXT" value="15" />
           <entry key="Properties" value="15" />
-          <entry key="XML" value="12" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="class" value="1" />
           <entry key="dummy" value="11" />
-          <entry key="java" value="21351" />
+          <entry key="java" value="21856" />
           <entry key="json" value="140" />
           <entry key="properties" value="183" />
+          <entry key="txt" value="97" />
           <entry key="xml" value="138" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21351" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="21856" />
           <entry key="JSON" value="140" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PLAIN_TEXT" value="108" />
           <entry key="Properties" value="183" />
           <entry key="XML" value="138" />
         </counts>
@@ -198,66 +216,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Example/SimpleExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-              <folding>
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/Executor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-              <folding>
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-              <folding>
-                <element signature="e#3996#3997#0" expanded="true" />
-                <element signature="e#4021#4022#0" expanded="true" />
-                <element signature="e#4266#4267#0" expanded="true" />
-                <element signature="e#4323#4324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/Connector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="109" selection-start-line="109" selection-end-line="109" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3541#3542#0" expanded="true" />
-                <element signature="e#3575#3576#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Example/ServerUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="189">
+              <caret line="158" column="50" selection-start-line="158" selection-start-column="50" selection-end-line="158" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -266,51 +229,85 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.properties">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="675">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Example/Main.java">
+        <entry file="file://$PROJECT_DIR$/MessageExemple.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSONMessageExemple.json">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Iterable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/MessageCountChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="60">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientProcessor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-489">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="945">
+              <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2786#2787#0" expanded="true" />
-                <element signature="e#2858#2859#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/java-task-processor/TaskProcessor/1.1/TaskProcessor-1.1.jar!/processors/load/LoadBalancingTaskProcessor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/java-task-processor/TaskProcessor/1.1/TaskProcessor-1.1.jar!/processors/base/TaskProcessor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11025">
+              <caret line="793" selection-start-line="793" selection-end-line="793" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/peer/PeerManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -347,11 +344,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/borb/utill/processors/changed/ChangedTaskProcessor.java" />
         <option value="$PROJECT_DIR$/src/resources/server.properties" />
         <option value="$PROJECT_DIR$/src/com/borb/utill/processors/load/LoadBalancingTaskProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/atta/utill/loger/ILogger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/MessageCountChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/atta/utill/callback/CallBackDouble.java" />
         <option value="$PROJECT_DIR$/src/main/java/atta/utill/callback/CallBackQuadr.java" />
         <option value="$PROJECT_DIR$/src/main/java/atta/utill/callback/CallBackSingle.java" />
@@ -379,12 +374,8 @@
         <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientPinger.java" />
         <option value="$PROJECT_DIR$/src/main/java/atta/server/peer/PeerListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/atta/utill/loger/LogController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atta/server/peer/PeerManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientService.java" />
         <option value="$PROJECT_DIR$/src/impl/ServerUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientMessageSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/resources/server.properties" />
         <option value="$PROJECT_DIR$/src/main/java/atta/server/peer/PeerDistributor.java" />
         <option value="$PROJECT_DIR$/src/main/java/atta/helpers/JsonMessageParserHelper.java" />
@@ -392,11 +383,17 @@
         <option value="$PROJECT_DIR$/JSONMessageStructure" />
         <option value="$PROJECT_DIR$/JSONMessageStructure.json" />
         <option value="$PROJECT_DIR$/JSONMessageExemple.json" />
-        <option value="$PROJECT_DIR$/src/main/java/atta/server/comand/CommandService.java" />
         <option value="$PROJECT_DIR$/src/main/java/atta/server/Executor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/atta/server/AttaServer.java" />
         <option value="$PROJECT_DIR$/Example/Main.java" />
         <option value="$PROJECT_DIR$/server.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/comand/CommandService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/ClientService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/AttaServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/peer/PeerManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/atta/server/client/MessageCountChecker.java" />
+        <option value="$PROJECT_DIR$/MessageExemple.txt" />
         <option value="$PROJECT_DIR$/src/main/java/atta/server/client/Client.java" />
       </list>
     </option>
@@ -428,9 +425,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="710" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -454,33 +450,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AttaCore" type="58d84e3e:PackageViewProjectNode" />
-              <item name="AttaCore" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="AttaCore" type="58d84e3e:PackageViewProjectNode" />
-              <item name="AttaCore" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="attaserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="attaserver" type="462c0819:PsiDirectoryNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
@@ -507,6 +483,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="atta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atta" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
@@ -544,7 +529,48 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="atta" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="comand" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atta" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="peer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atta" type="462c0819:PsiDirectoryNode" />
               <item name="utill" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atta" type="462c0819:PsiDirectoryNode" />
+              <item name="utill" type="462c0819:PsiDirectoryNode" />
+              <item name="callback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atta" type="462c0819:PsiDirectoryNode" />
+              <item name="utill" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
@@ -558,101 +584,27 @@
             </path>
             <path>
               <item name="attaserver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="attaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atta" type="462c0819:PsiDirectoryNode" />
+              <item name="utill" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
-          <expand>
-            <path>
-              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Client" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="attaserver" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="AttaCore" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="borb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Utill" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550735489346" />
-    <property name="extract.method.default.visibility" value="protected" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551616732268" />
+    <property name="extract.method.default.visibility" value="public" />
     <property name="jdk.selected.JAVA_MODULE" value="JDK_1.8.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -778,13 +730,13 @@
     <layout>
       <window_info id="Structure" order="0" weight="0.24959612" />
       <window_info id="Learn" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.28271407" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.29644588" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Find" order="8" sideWeight="0.6304687" weight="0.31502423" />
+      <window_info active="true" id="Find" order="8" sideWeight="0.6304687" visible="true" weight="0.31502423" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="2" weight="0.4" />
@@ -793,7 +745,7 @@
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.17528272" side_tool="true" weight="0.31643835" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.45482296" weight="0.2589041" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.8247173" visible="true" weight="0.24931507" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.8247173" weight="0.24931507" />
       <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.8256956" weight="0.3452055" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
@@ -802,7 +754,7 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.32875606" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.22132471" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.22132471" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.32956383" />
     </layout>
   </component>
@@ -831,24 +783,6 @@
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/atta/server/client/Client.java</url>
-          <line>112</line>
-          <properties />
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/atta/server/comand/CommandService.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/atta/server/comand/CommandService.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/atta/server/Executor.java</url>
           <line>30</line>
           <properties />
@@ -856,9 +790,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/atta/server/client/Client.java</url>
-          <line>117</line>
+          <line>98</line>
           <properties />
           <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/atta/server/client/Client.java</url>
+          <line>161</line>
+          <properties />
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
@@ -900,29 +840,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/atta/utill/callback/CallBackSingle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jsoniter/jsoniter/0.9.23/jsoniter-0.9.23.jar!/com/jsoniter/any/ArrayAny.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20180813/json-20180813.jar!/org/json/HTTP.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/base/IProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/changed/ChangedTaskProcessor.java" />
     <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/diagnostically/DiagnosticallyTaskProcessor.java" />
     <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/diagnostically/DiagnosticsTaskProcessorsManager.java" />
     <entry file="file://$PROJECT_DIR$/TastProcessor/src/main/java/processors/diagnostically/IDiagnostically.java" />
@@ -952,13 +869,6 @@
     <entry file="file://$PROJECT_DIR$/log2019-02-140012.txt" />
     <entry file="file://$PROJECT_DIR$/log2019-02-140023.txt" />
     <entry file="file://$PROJECT_DIR$/log2019-02-140027.txt" />
-    <entry file="jar://$MAVEN_REPOSITORY$/java-task-processor/TaskProcessor/1.1/TaskProcessor-1.1.jar!/processors/load/LoadBalancingTaskProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/atta/utill/properties/PropertiesReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -970,9 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,13 +890,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/peer/PeerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1028,22 +928,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSONMessageStructure" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ UML_model.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/MessageCountChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/atta/helpers/ServerConfigReader.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1056,13 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/java-task-processor/TaskProcessor/1.1/TaskProcessor-1.1.jar!/processors/base/TaskProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1080,80 +959,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/comand/CommandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="163" column="21" lean-forward="true" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#MessageDistributor#0;class#CommandService#0" />
-            <element signature="class#MessageParser#0;class#CommandService#0" />
-            <element signature="class#CommandParser#0;class#CommandService#0" />
-            <element signature="e#5692#5693#0" expanded="true" />
-            <element signature="e#5747#5748#0" expanded="true" />
-            <element signature="e#5811#5812#0" expanded="true" />
-            <element signature="e#5865#5866#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2613#2614#0" expanded="true" />
-            <element signature="e#2673#2674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/AttaServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="117" column="47" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
-          <folding>
-            <element signature="e#2728#2729#0" expanded="true" />
-            <element signature="e#2782#2783#0" expanded="true" />
-            <element signature="e#4077#4078#0" expanded="true" />
-            <element signature="e#4131#4132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Example/ServerUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Example/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSONMessageExemple.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JSONMessageExemple.json" />
     <entry file="file://$PROJECT_DIR$/Example/SimpleExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1168,6 +978,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Example/ServerUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1175,46 +992,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/Connector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="413">
+          <caret line="109" selection-start-line="109" selection-end-line="109" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3541#3542#0" expanded="true" />
+            <element signature="e#3575#3576#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-489">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="60">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="class#ClientContainer#0;class#ClientProcessor#0" />
             <element signature="e#2786#2787#0" expanded="true" />
             <element signature="e#2858#2859#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/Client.java">
+    <entry file="file://$PROJECT_DIR$/Example/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/comand/CommandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/AttaServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="137" column="38" lean-forward="true" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="220" column="41" selection-start-line="220" selection-start-column="41" selection-end-line="220" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
           <folding>
-            <element signature="e#3996#3997#0" expanded="true" />
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4266#4267#0" expanded="true" />
-            <element signature="e#4323#4324#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/Connector.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/java-task-processor/TaskProcessor/1.1/TaskProcessor-1.1.jar!/processors/load/LoadBalancingTaskProcessor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="109" selection-start-line="109" selection-end-line="109" selection-end-column="54" />
+        <state relative-caret-position="660">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/java-task-processor/TaskProcessor/1.1/TaskProcessor-1.1.jar!/processors/base/TaskProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11025">
+          <caret line="793" selection-start-line="793" selection-end-line="793" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/peer/PeerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/MessageCountChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MessageExemple.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/atta/server/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="158" column="50" selection-start-line="158" selection-start-column="50" selection-end-line="158" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3541#3542#0" expanded="true" />
-            <element signature="e#3575#3576#0" expanded="true" />
           </folding>
         </state>
       </provider>

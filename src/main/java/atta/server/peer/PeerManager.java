@@ -19,6 +19,10 @@ public class PeerManager
                 distributor.add(socket);
             }
         });
+    }
+
+    public void start()
+    {
         distributor.start();
         listener.start();
     }

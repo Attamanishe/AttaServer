@@ -169,7 +169,10 @@ public class CommandService
         toSend = new ConcurrentLinkedQueue<>();
         readyToProcess = new ConcurrentLinkedQueue<>();
         readyToSend = new ConcurrentLinkedQueue<>();
+    }
 
+    public void start()
+    {
         new MessageDistributor().start();
         new MessageParser().start();
         new CommandDistributor().start();
