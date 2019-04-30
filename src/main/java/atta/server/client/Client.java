@@ -102,7 +102,7 @@ public class Client
 
     public boolean isReady()
     {
-        if (!isConnected || lockHandling.isLocked())
+        if (!isConnected || lockHandling.isLocked() || reader == null)
         {
             return false;
         }
@@ -164,26 +164,28 @@ public class Client
             byte buffer[];
             buffer = new byte[MAX_BUFFER_SIZE];
             countOfBytes = reader.read(buffer, 0, MAX_BUFFER_SIZE);
-            byte clearedBuffer[] = new byte[countOfBytes];
-            System.arraycopy(buffer, 0, clearedBuffer, 0, countOfBytes);
-            String subMessages[] = (cachedPart + new String(clearedBuffer)).split(MESSAGE_DELIMITER);
-            cachedPart = EMPTY;
-
-            for (int i = 0, length = subMessages.length - 1; i < length; i++)
+            if (countOfBytes >= 0)
             {
-                String subMessage = subMessages[i];
-                if (subMessage.length() > 1)
+                byte clearedBuffer[] = new byte[countOfBytes];
+                System.arraycopy(buffer, 0, clearedBuffer, 0, countOfBytes);
+                String subMessages[] = (cachedPart + new String(clearedBuffer)).split(MESSAGE_DELIMITER);
+                cachedPart = EMPTY;
+
+                for (int i = 0, length = subMessages.length - 1; i < length; i++)
                 {
-                    messages.add(subMessage);
-                    MessageCountChecker.HANDLED_MESSAGES_COUNT++;
+                    String subMessage = subMessages[i];
+                    if (subMessage.length() > 1)
+                    {
+                        messages.add(subMessage);
+                        MessageCountChecker.HANDLED_MESSAGES_COUNT++;
+                    }
+                }
+
+                if (subMessages[subMessages.length - 1].length() > 1)
+                {
+                    cachedPart = subMessages[subMessages.length - 1];
                 }
             }
-
-            if (subMessages[subMessages.length - 1].length() > 1)
-            {
-                cachedPart = subMessages[subMessages.length - 1];
-            }
-
         } while (countOfBytes == MAX_BUFFER_SIZE);
     }
 }

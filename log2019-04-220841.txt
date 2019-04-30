@@ -1,1 +1,0 @@
-LOG:08:41:07     Server started

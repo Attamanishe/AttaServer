@@ -93,6 +93,7 @@ public class CommandService
         protected void process()
         {
             Container<Long, String> message;
+
             for (int i = 0; i < PERFORMED_PART && (message = toParse.poll()) != null; i++)
             {
                 CommandModel model = parse(message.second);

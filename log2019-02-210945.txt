@@ -1,6 +1,0 @@
-LOG:09:45:11     Server started
-LOG:09:45:16     Connected new socket with ip: /127.0.0.1
-LOG:09:45:16     Client with id: 0 has been connected
-LOG:09:45:56     Server started
-LOG:09:46:09     Connected new socket with ip: /127.0.0.1
-LOG:09:46:09     Client with id: 0 has been connected

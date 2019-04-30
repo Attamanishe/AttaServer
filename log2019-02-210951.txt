@@ -1,8 +1,0 @@
-LOG:09:51:20     Server started
-LOG:09:51:26     Connected new socket with ip: /127.0.0.1
-LOG:09:51:26     Client with id: 0 has been connected
-LOG:09:51:32     Client with id: 0 lost connection
-LOG:09:51:38     Connected new socket with ip: /127.0.0.1
-LOG:09:51:38     client with id: 0 reconnected
-LOG:09:52:14     Client with id: 0 lost connection
-LOG:09:52:21     Client with id: 0 has been disconnected
