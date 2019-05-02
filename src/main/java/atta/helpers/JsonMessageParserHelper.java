@@ -1,6 +1,7 @@
 package atta.helpers;
 
 import atta.server.comand.model.CommandModel;
+import atta.utill.loger.LogController;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -61,7 +62,15 @@ public final class JsonMessageParserHelper
 
         JSONObject obj = null;
 
-        obj = new JSONObject(json);
+
+        try
+        {
+            obj = new JSONObject(json);
+
+        } catch (JSONException e)
+        {
+            LogController.getInstance().LogError(json);
+        }
         if (obj == null)
         {
             System.err.println("Uncorrect message" + json);
